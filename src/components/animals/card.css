@@ -1,0 +1,27 @@
+.animal{
+   
+    padding: 7px;
+    background-color: #e4caf1;
+    border-radius: 8px;
+    margin: 12px ;
+    position: relative;
+   
+    
+}
+.animal__pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animal img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.animal--button__close{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
